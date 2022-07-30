@@ -50,6 +50,7 @@
         <module reference="7fa0bdb4-a310-486b-b79e-d0f456926a92(com.geno1024.chatlanguage)" version="0" />
         <module reference="c9d371ba-596c-4ded-840c-e5c279313cad(com.geno1024.chatlanguage.generator)" version="0" />
         <module reference="4b40d256-c4f2-4674-b39d-2d2ae7ce37db(com.geno1024.chatlanguage.runtime)" version="0" />
+        <module reference="4caf0310-491e-41f5-8a9b-2006b3a94898(jetbrains.mps.execution.util)" version="0" />
         <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
       </dependencyVersions>
       <mapping-priorities />
@@ -94,12 +95,15 @@
     <module reference="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" version="0" />
     <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
     <module reference="7fa0bdb4-a310-486b-b79e-d0f456926a92(com.geno1024.chatlanguage)" version="0" />
+    <module reference="4caf0310-491e-41f5-8a9b-2006b3a94898(jetbrains.mps.execution.util)" version="0" />
     <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
     <module reference="a9e4c532-c5f5-4bb7-99ef-42abb73bbb70(jetbrains.mps.lang.descriptor.aspects)" version="0" />
   </dependencyVersions>
   <runtime>
     <dependency reexport="false">4b40d256-c4f2-4674-b39d-2d2ae7ce37db(com.geno1024.chatlanguage.runtime)</dependency>
   </runtime>
-  <extendedLanguages />
+  <extendedLanguages>
+    <extendedLanguage>4caf0310-491e-41f5-8a9b-2006b3a94898(jetbrains.mps.execution.util)</extendedLanguage>
+  </extendedLanguages>
 </language>
 
