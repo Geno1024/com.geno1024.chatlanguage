@@ -74,9 +74,28 @@
         <node concept="3EZMnI" id="5oTzfJ10ULp" role="3EZMnx">
           <node concept="VPM3Z" id="5oTzfJ10ULr" role="3F10Kt" />
           <node concept="2iRkQZ" id="5oTzfJ10ULu" role="2iSdaV" />
+          <node concept="3EZMnI" id="5oTzfJ11Iz2" role="3EZMnx">
+            <node concept="3F0ifn" id="5oTzfJ11Iz3" role="3EZMnx">
+              <property role="3F0ifm" value="Config:" />
+            </node>
+            <node concept="3EZMnI" id="5oTzfJ11Iz4" role="3EZMnx">
+              <node concept="VPM3Z" id="5oTzfJ11Iz5" role="3F10Kt" />
+              <node concept="3XFhqQ" id="5oTzfJ11Iz6" role="3EZMnx" />
+              <node concept="3EZMnI" id="5oTzfJ11Iz7" role="3EZMnx">
+                <node concept="VPM3Z" id="5oTzfJ11Iz8" role="3F10Kt" />
+                <node concept="3F1sOY" id="5oTzfJ11Iz9" role="3EZMnx">
+                  <ref role="1NtTu8" to="wadv:5oTzfJ10UMB" resolve="config" />
+                </node>
+                <node concept="2iRkQZ" id="5oTzfJ11Iza" role="2iSdaV" />
+              </node>
+              <node concept="2iRfu4" id="5oTzfJ11Izb" role="2iSdaV" />
+            </node>
+            <node concept="2iRkQZ" id="5oTzfJ11Izc" role="2iSdaV" />
+            <node concept="VPM3Z" id="5oTzfJ11Izd" role="3F10Kt" />
+          </node>
           <node concept="3EZMnI" id="5oTzfJ11kCu" role="3EZMnx">
             <node concept="3F0ifn" id="5oTzfJ10UM5" role="3EZMnx">
-              <property role="3F0ifm" value="Configs:" />
+              <property role="3F0ifm" value="Login:" />
             </node>
             <node concept="3EZMnI" id="5oTzfJ10UMb" role="3EZMnx">
               <node concept="VPM3Z" id="5oTzfJ10UMd" role="3F10Kt" />
@@ -84,7 +103,7 @@
               <node concept="3EZMnI" id="5oTzfJ10UMs" role="3EZMnx">
                 <node concept="VPM3Z" id="5oTzfJ10UMu" role="3F10Kt" />
                 <node concept="3F1sOY" id="5oTzfJ10UMD" role="3EZMnx">
-                  <ref role="1NtTu8" to="wadv:5oTzfJ10UMB" resolve="config" />
+                  <ref role="1NtTu8" to="wadv:5oTzfJ11IyX" resolve="login" />
                 </node>
                 <node concept="2iRkQZ" id="5oTzfJ10UMx" role="2iSdaV" />
               </node>
@@ -236,6 +255,19 @@
         <node concept="2iRfu4" id="5oTzfJ11vdf" role="2iSdaV" />
       </node>
       <node concept="2iRkQZ" id="5oTzfJ11vcY" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="5oTzfJ11IyG">
+    <property role="3GE5qa" value="com.geno1024.chatlanguage.roots" />
+    <ref role="1XX52x" to="wadv:5oTzfJ11Iyw" resolve="LoginRef" />
+    <node concept="1iCGBv" id="5oTzfJ11IyI" role="2wV5jI">
+      <ref role="1NtTu8" to="wadv:5oTzfJ11Iyz" resolve="ptr" />
+      <node concept="1sVBvm" id="5oTzfJ11IyK" role="1sWHZn">
+        <node concept="3F0A7n" id="5oTzfJ11IyU" role="2wV5jI">
+          <property role="1Intyy" value="true" />
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        </node>
+      </node>
     </node>
   </node>
 </model>

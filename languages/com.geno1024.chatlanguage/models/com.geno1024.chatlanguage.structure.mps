@@ -92,6 +92,12 @@
       <property role="20kJfa" value="config" />
       <ref role="20lvS9" node="5oTzfJ11AT3" resolve="ConfigType" />
     </node>
+    <node concept="1TJgyj" id="5oTzfJ11IyX" role="1TKVEi">
+      <property role="IQ2ns" value="6213152173837445309" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="login" />
+      <ref role="20lvS9" node="5oTzfJ11Iyq" resolve="LoginType" />
+    </node>
     <node concept="1TJgyj" id="5oTzfJ11kBZ" role="1TKVEi">
       <property role="IQ2ns" value="6213152173837339135" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -275,6 +281,38 @@
     <property role="3GE5qa" value="com.geno1024.chatlanguage.types" />
     <property role="EcuMT" value="6213152173837250622" />
     <property role="R5$K7" value="true" />
+  </node>
+  <node concept="1TIwiD" id="5oTzfJ11Iyq">
+    <property role="EcuMT" value="6213152173837445274" />
+    <property role="3GE5qa" value="com.geno1024.chatlanguage.types" />
+    <property role="TrG5h" value="LoginType" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+  </node>
+  <node concept="1TIwiD" id="5oTzfJ11Iyt">
+    <property role="EcuMT" value="6213152173837445277" />
+    <property role="3GE5qa" value="com.geno1024.chatlanguage.roots" />
+    <property role="TrG5h" value="Login" />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" node="5oTzfJ11Iyq" resolve="LoginType" />
+    <node concept="PrWs8" id="5oTzfJ11Iyu" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5oTzfJ11Iyw">
+    <property role="EcuMT" value="6213152173837445280" />
+    <property role="3GE5qa" value="com.geno1024.chatlanguage.roots" />
+    <property role="TrG5h" value="LoginRef" />
+    <ref role="1TJDcQ" node="5oTzfJ11Iyq" resolve="LoginType" />
+    <node concept="PrWs8" id="5oTzfJ11Iyx" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="1TJgyj" id="5oTzfJ11Iyz" role="1TKVEi">
+      <property role="IQ2ns" value="6213152173837445283" />
+      <property role="20kJfa" value="ptr" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="5oTzfJ11Iyt" resolve="Login" />
+    </node>
   </node>
 </model>
 
