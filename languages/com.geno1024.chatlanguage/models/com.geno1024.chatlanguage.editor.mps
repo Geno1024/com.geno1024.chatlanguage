@@ -21,6 +21,8 @@
       <concept id="1080736578640" name="jetbrains.mps.lang.editor.structure.BaseEditorComponent" flags="ig" index="2wURMF">
         <child id="1080736633877" name="cellModel" index="2wV5jI" />
       </concept>
+      <concept id="1078938745671" name="jetbrains.mps.lang.editor.structure.EditorComponentDeclaration" flags="ig" index="PKFIW" />
+      <concept id="1186414860679" name="jetbrains.mps.lang.editor.structure.EditableStyleClassItem" flags="ln" index="VPxyj" />
       <concept id="1186414928363" name="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" flags="ln" index="VPM3Z" />
       <concept id="1088013125922" name="jetbrains.mps.lang.editor.structure.CellModel_RefCell" flags="sg" stub="730538219795941030" index="1iCGBv">
         <child id="1088186146602" name="editorComponent" index="1sWHZn" />
@@ -51,6 +53,9 @@
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+        <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
   </registry>
@@ -268,6 +273,61 @@
           <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="PKFIW" id="5oTzfJ12ssq">
+    <property role="3GE5qa" value="com.geno1024.chatlanguage.roots" />
+    <property role="TrG5h" value="Login_Component_UsernameAndPassword" />
+    <ref role="1XX52x" to="wadv:5oTzfJ11Iyt" resolve="Login" />
+    <node concept="3EZMnI" id="5oTzfJ12ss_" role="2wV5jI">
+      <node concept="3EZMnI" id="5oTzfJ12ssG" role="3EZMnx">
+        <node concept="VPM3Z" id="5oTzfJ12ssI" role="3F10Kt" />
+        <node concept="3F0A7n" id="5oTzfJ12MRc" role="3EZMnx">
+          <ref role="1NtTu8" to="wadv:5oTzfJ12MR0" resolve="type" />
+          <node concept="VPM3Z" id="5oTzfJ12MRi" role="3F10Kt" />
+          <node concept="VPxyj" id="5oTzfJ12MRn" role="3F10Kt" />
+        </node>
+        <node concept="3F0ifn" id="5oTzfJ12ssV" role="3EZMnx">
+          <property role="3F0ifm" value="Login" />
+        </node>
+        <node concept="3F0A7n" id="5oTzfJ12st3" role="3EZMnx">
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        </node>
+        <node concept="3F0ifn" id="5oTzfJ12std" role="3EZMnx">
+          <property role="3F0ifm" value=":" />
+        </node>
+        <node concept="2iRfu4" id="5oTzfJ12ssL" role="2iSdaV" />
+      </node>
+      <node concept="3EZMnI" id="5oTzfJ12sts" role="3EZMnx">
+        <node concept="VPM3Z" id="5oTzfJ12stu" role="3F10Kt" />
+        <node concept="2iRfu4" id="5oTzfJ12stx" role="2iSdaV" />
+        <node concept="3XFhqQ" id="5oTzfJ12stH" role="3EZMnx" />
+        <node concept="3EZMnI" id="5oTzfJ12stM" role="3EZMnx">
+          <node concept="VPM3Z" id="5oTzfJ12stO" role="3F10Kt" />
+          <node concept="3EZMnI" id="5oTzfJ12su0" role="3EZMnx">
+            <node concept="VPM3Z" id="5oTzfJ12su2" role="3F10Kt" />
+            <node concept="3F0ifn" id="5oTzfJ12sua" role="3EZMnx">
+              <property role="3F0ifm" value="Username:" />
+            </node>
+            <node concept="3F0A7n" id="5oTzfJ12sug" role="3EZMnx">
+              <ref role="1NtTu8" to="wadv:5oTzfJ12sq1" resolve="username" />
+            </node>
+            <node concept="2iRfu4" id="5oTzfJ12su5" role="2iSdaV" />
+          </node>
+          <node concept="3EZMnI" id="5oTzfJ12sur" role="3EZMnx">
+            <node concept="VPM3Z" id="5oTzfJ12sut" role="3F10Kt" />
+            <node concept="3F0ifn" id="5oTzfJ12suv" role="3EZMnx">
+              <property role="3F0ifm" value="Password:" />
+            </node>
+            <node concept="3F0A7n" id="5oTzfJ12suH" role="3EZMnx">
+              <ref role="1NtTu8" to="wadv:5oTzfJ12sq3" resolve="password" />
+            </node>
+            <node concept="2iRfu4" id="5oTzfJ12suw" role="2iSdaV" />
+          </node>
+          <node concept="2iRkQZ" id="5oTzfJ12stR" role="2iSdaV" />
+        </node>
+      </node>
+      <node concept="2iRkQZ" id="5oTzfJ12ssC" role="2iSdaV" />
     </node>
   </node>
 </model>

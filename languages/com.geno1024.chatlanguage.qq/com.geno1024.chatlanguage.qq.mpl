@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="com.geno1024.chatlanguage" uuid="7fa0bdb4-a310-486b-b79e-d0f456926a92" languageVersion="0" moduleVersion="0">
+<language namespace="com.geno1024.chatlanguage.qq" uuid="639dab90-b7da-4fbc-8fd3-9d326f7655f6" languageVersion="0" moduleVersion="0">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
@@ -12,7 +12,7 @@
   </facets>
   <accessoryModels />
   <generators>
-    <generator alias="main" namespace="com.geno1024.chatlanguage.generator" uuid="c9d371ba-596c-4ded-840c-e5c279313cad">
+    <generator alias="main" namespace="com.geno1024.chatlanguage.qq.generator" uuid="6e68d860-799e-4e64-91f0-cb50509627b2">
       <models>
         <modelRoot contentPath="${module}/generator" type="default">
           <sourceRoot location="templates" />
@@ -24,9 +24,6 @@
         </facet>
       </facets>
       <external-templates />
-      <dependencies>
-        <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
-      </dependencies>
       <languageVersions>
         <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="12" />
         <language slang="l:fd392034-7849-419d-9071-12563d152375:jetbrains.mps.baseLanguage.closures" version="0" />
@@ -51,7 +48,9 @@
         <module reference="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" version="0" />
         <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
         <module reference="7fa0bdb4-a310-486b-b79e-d0f456926a92(com.geno1024.chatlanguage)" version="0" />
-        <module reference="c9d371ba-596c-4ded-840c-e5c279313cad(com.geno1024.chatlanguage.generator)" version="0" />
+        <module reference="639dab90-b7da-4fbc-8fd3-9d326f7655f6(com.geno1024.chatlanguage.qq)" version="0" />
+        <module reference="6e68d860-799e-4e64-91f0-cb50509627b2(com.geno1024.chatlanguage.qq.generator)" version="0" />
+        <module reference="cfab3218-7584-40c0-bdc7-0e25ee3a8ad8(com.geno1024.chatlanguage.qq.runtime)" version="0" />
         <module reference="4b40d256-c4f2-4674-b39d-2d2ae7ce37db(com.geno1024.chatlanguage.runtime)" version="0" />
         <module reference="4caf0310-491e-41f5-8a9b-2006b3a94898(jetbrains.mps.execution.util)" version="0" />
         <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
@@ -60,6 +59,9 @@
     </generator>
   </generators>
   <sourcePath />
+  <dependencies>
+    <dependency reexport="false">5dae8159-ab99-46bb-a40d-0cee30ee7018(jetbrains.mps.lang.constraints.rules.kinds)</dependency>
+  </dependencies>
   <languageVersions>
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="12" />
     <language slang="l:443f4c36-fcf5-4eb6-9500-8d06ed259e3e:jetbrains.mps.baseLanguage.classifiers" version="0" />
@@ -98,15 +100,17 @@
     <module reference="6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)" version="0" />
     <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
     <module reference="7fa0bdb4-a310-486b-b79e-d0f456926a92(com.geno1024.chatlanguage)" version="0" />
+    <module reference="639dab90-b7da-4fbc-8fd3-9d326f7655f6(com.geno1024.chatlanguage.qq)" version="0" />
     <module reference="4caf0310-491e-41f5-8a9b-2006b3a94898(jetbrains.mps.execution.util)" version="0" />
+    <module reference="5dae8159-ab99-46bb-a40d-0cee30ee7018(jetbrains.mps.lang.constraints.rules.kinds)" version="1" />
     <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
     <module reference="a9e4c532-c5f5-4bb7-99ef-42abb73bbb70(jetbrains.mps.lang.descriptor.aspects)" version="0" />
   </dependencyVersions>
   <runtime>
-    <dependency reexport="false">4b40d256-c4f2-4674-b39d-2d2ae7ce37db(com.geno1024.chatlanguage.runtime)</dependency>
+    <dependency reexport="false">cfab3218-7584-40c0-bdc7-0e25ee3a8ad8(com.geno1024.chatlanguage.qq.runtime)</dependency>
   </runtime>
   <extendedLanguages>
-    <extendedLanguage>4caf0310-491e-41f5-8a9b-2006b3a94898(jetbrains.mps.execution.util)</extendedLanguage>
+    <extendedLanguage>7fa0bdb4-a310-486b-b79e-d0f456926a92(com.geno1024.chatlanguage)</extendedLanguage>
   </extendedLanguages>
 </language>
 
