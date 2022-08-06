@@ -123,6 +123,7 @@
     <property role="3GE5qa" value="com.geno1024.chatlanguage.roots" />
     <property role="TrG5h" value="Config" />
     <property role="19KtqR" value="true" />
+    <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" node="5oTzfJ11AT3" resolve="ConfigType" />
     <node concept="PrWs8" id="5oTzfJ10ULA" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -162,6 +163,7 @@
     <property role="3GE5qa" value="com.geno1024.chatlanguage.roots" />
     <property role="TrG5h" value="Trigger" />
     <property role="19KtqR" value="true" />
+    <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" node="5oTzfJ11AT4" resolve="TriggerType" />
     <node concept="PrWs8" id="5oTzfJ10Z0Z" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -232,6 +234,7 @@
     <property role="3GE5qa" value="com.geno1024.chatlanguage.roots" />
     <property role="TrG5h" value="Action" />
     <property role="19KtqR" value="true" />
+    <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" node="5oTzfJ11AT2" resolve="ActionType" />
     <node concept="PrWs8" id="5oTzfJ11vbZ" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
